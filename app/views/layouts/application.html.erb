@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "Rck App" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Rck App" %>">
+      <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <%= render 'layouts/navigation' %>
+    </header>
+    <main role="main">
+       <%= render 'layouts/messages' %>
+       <%= yield %>
+    </main>
+      <div class="footer">
+     <div class="container">
+         
+         
+         
+         
+           <div class="col-md-3">
+          
+           <div class="panel panel-default">
+  <div class="panel-body">
+    <h4 class="titlesServices">Navigation</h4>
+     
+      <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Competion</a></li>
+            <li><a href="#">Rates</a></li>
+           <li><a href="#">Schedule</a></li>
+            <li><a href="#">SiteMap</a></li>
+            <li><a href="#">Contact</a></li>
+</ul>
+ 
+      
+     
+      
+      
+         </div>
+       </div>
+               
+               
+               
+               
+               
+        
+                       
+      </div>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <div class="col-md-3">
+          
+           <div class="panel panel-default">
+  <div class="panel-body">
+    <h4 class="titlesServices">Services</h4>
+     
+      <ul class="list-unstyled">
+            <li><a href="#">Road Racing</a></li>
+            <li><a href="#">Dirt Racing</a></li>
+            <li><a href="#">OutDoor Racing</a></li>
+            <li><a href="#">Pro Shop</a></li>
+            <li><a href="#">Competitions</a></li>
+            <li><a href="#">Partys</a></li>
+           <li><a href="#">Schedule</a></li>
+         
+          
+</ul>
+ 
+      
+     
+      
+      
+         </div>
+       </div>
+               
+               
+               
+               
+               
+        
+                       
+      </div>
+         
+         
+         
+         
+            <div class="col-md-3">
+          
+           <div class="panel panel-default">
+  <div class="panel-body">
+    <h4 class="titlesServices">Company</h4>
+     
+      <ul class="list-unstyled">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Photos</a></li>
+           
+</ul>
+ 
+      
+     
+      
+      
+         </div>
+       </div>
+               
+               
+               
+               
+               
+        
+                       
+      </div>
+         
+         
+         
+         
+            <div class="col-md-3">
+          
+           <div class="panel panel-default">
+  <div class="panel-body">
+    <h4 class="titlesServices">Location</h4>
+     
+      <address>
+  <strong>RC Kinetics</strong><br>
+  2739 6th Ave<br>
+  Troy NY, 12180<br>
+  <abbr title="Phone">P:</abbr> (518) 456-7890
+</address>
+ 
+      
+     
+      
+      
+         </div>
+       </div>
+               
+               
+               
+               
+               
+        
+                       
+      </div>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        
+        
+        </div>
+        
+       
+      <!--hero last end-->
+    
+    </div>
+    <footer>
+       <div class="container">
+           
+           <div class="col-md-6">
+              <h6>&copy;copyright 2014 RC Kinetics</h6>
+           </div>
+           
+           
+              <div class="col-md-6">
+                  <div class="pull-right">
+                <a href="https://www.facebook.com/rckinetics"> <img src="img/facebook_icon.png" alt="facebook"></a> 
+                     <img src="img/twitter_icon.png" alt="facebook">
+                     <img src="img/google_icon.png" alt="facebook">
+                       <img src="img/youtube_icon.png" alt="facebook">
+                      </div>
+           
+           </div>
+        
+     
+              
+           
+    
+        
+        </div>
+    
+    </footer>
+  </body>
+</html>
