@@ -100,6 +100,12 @@ border-radius:0;
     margin:0;
 }
 
+
+nav .navbar-nav{
+
+  float:right;
+
+}
 .navbar-default .navbar-toggle {
 border-color: transparent;
 }
@@ -163,8 +169,16 @@ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 background-clip: padding-box;
 }
 
+
+.mini{
+background: #fff url(race.jpg) 50% 50% no-repeat;
+  width:100%;
+  height:200px;
+
+}
+
 .jumbotron{
-	background: #2c3e50 url(img/car_final.png) 50% 50% no-repeat;
+	background: #2c3e50 url(car_final.png) 50% 50% no-repeat;
 	background-size:cover;
 	max-height: 600px;
 	padding: 60px 0;
@@ -349,7 +363,7 @@ border-radius: 2px;
 
 .hero3{
         
-    background:#fff url(img/kit_hero.png) 50% 50% no-repeat;
+    background:#fff url(kit_hero.png) 50% 50% no-repeat;
     background-size:cover;
     height:500px;
     
@@ -461,8 +475,8 @@ margin-left: auto;
 
 .hero_last{
     height:250px;
-    	background:url(img/grid.png) repeat;
-  	background: #2c3e50 url(img/hero4.png) 50% 50% no-repeat;
+    	background:url(grid.png) repeat;
+  	background: #2c3e50 url(hero4.png) 50% 50% no-repeat;
     max-height:250px;
     background-size:cover;
     

@@ -18,17 +18,16 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
+      <li>    <%=link_to 'Home', root_url%></li>
     
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Road Racing</a></li>
-          <li><a href="#">Dirt Racing</a></li>
-          <li><a href="#">Out Door Racing</a></li>
-         <li><a href="#">Pro Shop</a></li>
-          <li><a href="#">Competition</a></li>
-          <li><a href="#">Partys</a></li>
+          <li>  <%=link_to 'Racing',  pages_road_path%></li>
+           <li>  <%=link_to 'Pro Shop', root_url%></li>
+             <li>  <%=link_to 'Competition', root_url%></li>
+                <li>  <%=link_to 'Partys', root_url%></li>
+          
         
         </ul>
 
@@ -37,15 +36,16 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Company<b class="caret"></b></a>
         <ul class="dropdown-menu">
               <li><a href="#" data-toggle="modal" data-target="#myModal3">Hours</a></li>
-             <li><a href="#">About Us</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Videos</a></li>
+             <li>  <%=link_to 'About Us', root_url%></li>
+              <li>  <%=link_to 'Photos', root_url%></li>
+           <li>  <%=link_to 'Videos', root_url%></li>
+        
           
          
        
         </ul>
-
-          <li><a href="#">Schedule</a></li>
+              <li>  <%=link_to 'Schedule', root_url%></li>
+       
             <li><a href="#" data-toggle="modal" data-target="#myModal2">Rates</a></li>
               <li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
          

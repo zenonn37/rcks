@@ -1,5 +1,12 @@
 RckApp::Application.routes.draw do
-  root :to => "home#index"
+  get "pages/index"
+  get "pages/road"
+  get "pages/dirt"
+  get "pages/hobby"
+  get "pages/competition"
+  get "pages/partys"
+  get "pages/about"
+  root :to => "pages#index"
   devise_for :users, :controllers => {:registrations => "registrations"}
   resources :users
 end
