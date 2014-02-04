@@ -6,6 +6,7 @@ RckApp::Application.routes.draw do
   get "pages/competition"
   get "pages/partys"
   get "pages/about"
+  get "pages/schedule"
   root :to => "pages#index"
   devise_for :users, :controllers => {:registrations => "registrations"}
   resources :users

@@ -34,6 +34,10 @@ line-height:30px;
 
 }
 
+.table{
+margin-bottom:60px;
+
+}
 
 a{
 
@@ -224,6 +228,12 @@ background-color:#fff;
   font-size:72px;
 padding:60px;
 
+}
+
+.party-page h2{
+color: #f1c40f;
+margin-top:40px;
+    margin-bottom:20px;
 }
 
 .mini .mini-hero{
