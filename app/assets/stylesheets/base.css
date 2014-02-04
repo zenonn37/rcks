@@ -188,6 +188,21 @@ background: #fff url(racing_f.jpg) 50% 50% no-repeat;
 
 }
 
+
+.hobby-shop .mini{
+background: #fff url(hobby.jpg) 50% 50% no-repeat;
+  	background-size:cover;
+  width:100%;
+  max-height:500px;
+
+}
+
+.hobby-shop span{
+
+padding-left:10px;
+}
+
+
 .jumbotron{
 	background: #2c3e50 url(super_hero.jpg) 50% 50% no-repeat;
 	background-size:cover;
@@ -486,7 +501,7 @@ margin-left: auto;
 
 .hero_last{
     height:250px;
-    	background:url(grid.png) repeat;
+  
   	background: #2c3e50 url(hero4.png) 50% 50% no-repeat;
     max-height:250px;
     background-size:cover;
@@ -560,13 +575,21 @@ background-color:transparent;
 
 
 .services-page .titlesServices{
-color: #ecf0f1;
+color: #f1c40f;
 margin-top:10px;
     margin-bottom:10px;
 
 
 
 }
+
+
+.services-page  p{
+color: #ecf0f1;
+
+
+}
+
 
 
 .footer .titlesServices{
@@ -682,7 +705,31 @@ font-family: helvectica,Arial;
 
 
 
+/*models*/
 
+.modal-content {
+position: relative;
+background-color: #282b2d;
+border: 1px solid #999999;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+outline: none;
+-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+background-clip: padding-box;
+}
+
+
+.modal-title{
+  color: #f1c40f;
+
+}
+
+
+.modal-body{
+color:#ecf0f1;
+
+}
 
 
 
