@@ -213,6 +213,19 @@ margin-bottom:15px;
 margin-top:50px;
 }
 
+
+.party{
+background-color:#fff;
+  min-height:200px;
+
+}
+
+.party h1{
+  font-size:72px;
+padding:60px;
+
+}
+
 .mini .mini-hero{
   min-height:400px;
 }
@@ -225,7 +238,7 @@ background: #fff url(racing_f.jpg) 50% 50% no-repeat;
 }
 
 .mini .mini-hero h1{
-
+  margin-top:400px;
   font-size:72px;
   font-weight:700px;
     
@@ -294,7 +307,7 @@ margin-bottom: 20px;
 background-color:#fff;
 border: 1px solisd transparent;
 border-radius: 2px;
-    color:##282b2d;
+    color:#282b2d;
  
 
 
