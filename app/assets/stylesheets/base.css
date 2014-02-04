@@ -169,6 +169,50 @@ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 background-clip: padding-box;
 }
 
+.about_page .about_mast{
+
+background:#fff;
+  min-width:200px;
+
+}
+
+.about_page .about_mast img{
+
+margin-bottom:15px;
+  padding-right:10px;
+
+}
+
+
+
+.about_page .about_mast h1{
+ font-size:72px;
+  padding:50px;
+}
+
+
+.about_page  p{
+  
+  color:#ecf0f1;
+  margin-bottom:40px;
+ 
+ 
+}
+
+
+.about_page  h2{
+  margin-top:20px;
+  margin-bottom:20px;
+  color:#f1c40f;
+ 
+ 
+}
+
+.about_page .about-us{
+
+margin-top:50px;
+}
+
 .mini .mini-hero{
   min-height:400px;
 }
@@ -852,6 +896,30 @@ border-color: transparent;
   border-bottom: 2px solid #fff;
 
    }
+
+
+
+
+
+.about_page .about_mast img{
+
+margin-bottom:15px;
+  padding-right:10px;
+  width:48px;
+  height:42px;
+
+}
+
+
+
+.about_page .about_mast h1{
+ font-size:24px;
+  padding:50px;
+}
+
+
+
+
 
 }
 
