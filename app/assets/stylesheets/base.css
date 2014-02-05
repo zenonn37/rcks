@@ -1,14 +1,4 @@
 
-/*colors
-
-#262626 panels only/sub_footer
-#282b2d background only
-#f1c40f headers and tags trim, screen overlays
-#01020b header/footer only
-
-
-
-*/
 
 body{
     font-family:'Raleway', helvetica, arial;
@@ -110,6 +100,7 @@ nav .navbar-nav{
   float:right;
 
 }
+
 .navbar-default .navbar-toggle {
 border-color: transparent;
 }
@@ -250,7 +241,7 @@ background: #fff url(racing_f.jpg) 50% 50% no-repeat;
 .mini .mini-hero h1{
   margin-top:400px;
   font-size:72px;
-  font-weight:700px;
+  font-weight:700;
     
 
 }
@@ -297,7 +288,7 @@ max-width:700px;
 padding: 90px;
 margin-bottom: 20px;
     margin-top:20px;
-background-color:none;
+background-color:transparent;
 border: 1px solid transparent;
 border-radius: 2px;
  
@@ -315,7 +306,7 @@ max-width:500px;
 padding: 6px;
 margin-bottom: 20px;
 background-color:#fff;
-border: 1px solisd transparent;
+border: 1px solid transparent;
 border-radius: 2px;
     color:#282b2d;
  
@@ -333,7 +324,7 @@ max-width:500px;
 padding: 6px;
 margin-bottom: 20px;
 background-color:#fff;
-border: 1px solisd transparent;
+border: 1px solid transparent;
 border-radius: 2px;
     color:#666666;
  
@@ -366,17 +357,12 @@ font-weight: 600;
 line-height: 1.428571429;
 text-align: center;
 white-space: nowrap;
-vertical-align: misddle;
+vertical-align: middle;
 cursor: pointer;
 background-image: none; 
 border: 1px solid transparent;
 border-radius: 2px;
    
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
 
 }
 
@@ -714,7 +700,7 @@ label {
 display: inline-block;
 margin-bottom: 5px;
 font-weight: bold;
-    color:fff;
+    color:#fff;
 }
 .news_forms{
 
@@ -725,10 +711,7 @@ font-weight: bold;
 
 }
 
-.news_forms form{
 
-
-}
 
 .form-control {
 display: block;
@@ -850,7 +833,7 @@ background-color: transparent;
         padding: 10px;
         margin-bottom: 20px;
         margin-top: 20px;
-        background-color: none;
+        background-color:  transparent;
         border: 1px solid transparent;
         border-radius: 2px;
         }
@@ -958,17 +941,7 @@ background-color: transparent;
 }
 
 	.navbar-default .navbar-collapse{
-		background: none;
+		background-color: transparent;
 	}
 
-/*colors
-
-#262626 panels only/sub_footer
-#282b2d background only
-#f1c40f headers and tags trim, screen overlays
-#01020b header/footer only
-##ecf0f1 text only
-
-
-
-*/
+}
