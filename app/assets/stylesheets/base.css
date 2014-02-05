@@ -48,7 +48,18 @@ a:hover, a:focus{
 	color: #308ac6;
 }
 
+/*End base styles*/
 
+
+
+
+
+
+
+
+
+
+/*Navigation*/
 
 .navbar-brand {
 float: left;
@@ -262,7 +273,9 @@ padding-left:10px;
 
 
 .jumbotron{
-	background: #2c3e50 url(super_hero.jpg) 50% 50% no-repeat;
+	
+  background-image: asset-data-url("super_hero.jpg") 50% 50% no-repeat;
+  background-color:#fff;
 	background-size:cover;
 	max-height: 600px;
 	padding: 60px 0;
