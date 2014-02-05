@@ -50,7 +50,12 @@ a:hover, a:focus{
 
 /*End base styles*/
 
+.headline{
 
+ width:100%;
+  min-height:250px;
+
+}
 
 
 
@@ -108,7 +113,7 @@ border-radius:0;
 
 nav .navbar-nav{
 
-  float:right;
+  float:none;
 
 }
 
@@ -250,7 +255,7 @@ background: #fff url(racing_f.jpg) 50% 50% no-repeat;
 }
 
 .mini .mini-hero h1{
-  margin-top:400px;
+  margin-top:390px;
   font-size:72px;
   font-weight:700;
     
@@ -274,7 +279,7 @@ padding-left:10px;
 
 .jumbotron{
 	
-  background: #fff url(<%= asset_path 'super_hero.jpg' %>) 50% 50% no-repeat;
+  background: #fff url(super_hero.jpg) 50% 50% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -282,11 +287,14 @@ padding-left:10px;
 	max-height: 600px;
 	padding: 60px 0;
 	margin: 0;
+ 
 }
 
 
 .jumbotron h1{
-	font-size:30px;
+	font-size:72px;
+  color:#fff;
+  max-width:900px;
 }
 
 .jumbotron p{
@@ -298,7 +306,7 @@ padding-left:10px;
 .jumbotron .heroHold{
     
 max-height: 600px;
-max-width:700px;
+max-width:800px;
     min-width:370px;
 padding: 90px;
 margin-bottom: 20px;
@@ -317,18 +325,33 @@ border-radius: 2px;
 .jumbotron .heroHold .heroTag   {
     
 max-height: 200px;
-max-width:500px;
+max-width:600px;
 padding: 6px;
 margin-bottom: 20px;
-background-color:#fff;
+background-color:transparent;
 border: 1px solid transparent;
 border-radius: 2px;
-    color:#282b2d;
+    color:#fff;
  
 
 
 	
 }
+
+
+.jumbotron .heroHold .heroTag  h1 {
+    
+
+ font-size:4.5em;
+  /*target / context = result
+  
+  72 / 26 = 2.76923077em
+  */
+
+
+	
+}
+
 
 
 
@@ -387,7 +410,9 @@ border-radius: 2px;
 .heroSub{
 
 background:#f1c40f;
-    height:50px;
+    height:20px;
+ 
+  
 }
 
 
@@ -414,7 +439,7 @@ height:5px;
 
 
 .services{
-margin-top:130px;
+margin-top:60px;
 margin-bottom:130px;
 
 }
@@ -856,7 +881,7 @@ background-color: transparent;
         
         
         .jumbotron h1{
-            font-size:20px;
+            font-size:100%;
         }
         
         .jumbotron p{
@@ -934,7 +959,7 @@ margin-bottom:15px;
 
 
 .about_page .about_mast h1{
- font-size:24px;
+
   padding:50px;
 }
 
