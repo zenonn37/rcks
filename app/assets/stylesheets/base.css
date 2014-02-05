@@ -274,7 +274,7 @@ padding-left:10px;
 
 .jumbotron{
 	
-  background: #fff image-url('super_hero.jpg') 50% 50% no-repeat;
+  background: #fff url('super_hero.jpg') 50% 50% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
