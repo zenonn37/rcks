@@ -11,6 +11,7 @@ gem 'bootstrap-sass', '>= 3.0.0.0'
 gem 'devise'
 gem 'figaro'
 gem 'pg'
+gem 'rails_12factor',group: :production 
 gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
 group :development do
@@ -22,4 +23,5 @@ group :development do
 end
 group :production do
   gem 'thin'
+  
 end

@@ -43,7 +43,8 @@
               <li><a href="#" data-toggle="modal" data-target="#myModal2">Rates</a></li>
           
          
-           <li><a href="#">Schedule</a></li>
+       
+        <li><%=link_to 'Schedule',pages_schedule_path%></li>
             <li><a href="#">SiteMap</a></li>
       
             <li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
@@ -83,11 +84,13 @@
     <h4 class="titlesServices">Services</h4>
      
       <ul class="list-unstyled">
-            <li><a href="#">Racing</a></li>         
-       
-            <li><a href="#">Pro Shop</a></li>
-            <li><a href="#">Competitions</a></li>
-            <li><a href="#">Partys</a></li>
+            <li><%=link_to 'Racing', pages_road_path%></li>         
+               <li><%=link_to 'Pro Shop', pages_hobby_path%></li>  
+                <li><%=link_to 'Competitions', pages_competition_path%></li>  
+                <li><%=link_to 'Partys', pages_partys_path%></li>   
+        
+          
+         
         
          
           
